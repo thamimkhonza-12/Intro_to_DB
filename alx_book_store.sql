@@ -1,85 +1,45 @@
-import mysql.connector
+-- CREATE DATABASE
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+USE alx_book_store;
 
-# -----------------------------
-# CONNECT TO MYSQL SERVER
-# -----------------------------
-conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="201305Thami,,,"    # <- change this
-)
-
-mycursor = conn.cursor()
-
-# -----------------------------
-# CREATE DATABASE
-# -----------------------------
-mycursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
-print("Database 'alx_book_store' created successfully!")
-
-# Select database
-mycursor.execute("USE alx_book_store")
-
-# -----------------------------
-# CREATE TABLES
-# -----------------------------
-
-# AUTHORS TABLE
-mycursor.execute("""
-CREATE TABLE IF NOT EXISTS AUTHORS (
+-- Authors Table
+CREATE TABLE IF NOT EXISTS Authors (
     author_id INT PRIMARY KEY AUTO_INCREMENT,
     author_name VARCHAR(215) NOT NULL
-)
-""")
+);
 
-# CUSTOMERS TABLE
-mycursor.execute("""
-CREATE TABLE IF NOT EXISTS CUSTOMERS (
+-- Customers Table
+CREATE TABLE IF NOT EXISTS Customers (
     customer_id INT PRIMARY KEY AUTO_INCREMENT,
     customer_name VARCHAR(215) NOT NULL,
     email VARCHAR(215),
     address TEXT
-)
-""")
+);
 
-# BOOKS TABLE
-mycursor.execute("""
-CREATE TABLE IF NOT EXISTS BOOKS (
+-- Books Table
+CREATE TABLE IF NOT EXISTS Books (
     book_id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(130) NOT NULL,
     author_id INT,
     price DOUBLE,
     publication_date DATE,
-    FOREIGN KEY (author_id) REFERENCES AUTHORS(author_id)
-)
-""")
+    FOREIGN KEY (author_id) REFERENCES Authors(author_id)
+);
 
-# ORDERS TABLE
-mycursor.execute("""
-CREATE TABLE IF NOT EXISTS ORDERS (
+-- Orders Table
+CREATE TABLE IF NOT EXISTS Orders (
     order_id INT PRIMARY KEY AUTO_INCREMENT,
     customer_id INT,
     order_date DATE,
-    FOREIGN KEY (customer_id) REFERENCES CUSTOMERS(customer_id)
-)
-""")
+    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+);
 
-# ORDER_DETAILS TABLE
-mycursor.execute("""
-CREATE TABLE IF NOT EXISTS ORDER_DETAILS (
+-- Order_Details Table
+CREATE TABLE IF NOT EXISTS Order_Details (
     orderdetailid INT PRIMARY KEY AUTO_INCREMENT,
     order_id INT,
     book_id INT,
     quantity DOUBLE,
-    FOREIGN KEY (order_id) REFERENCES ORDERS(order_id),
-    FOREIGN KEY (book_id) REFERENCES BOOKS(book_id)
-)
-""")
-
-print("All tables created successfully!")
-
-# -----------------------------
-# CLOSE CONNECTION
-# -----------------------------
-conn.close()
-print("Setup complete and connection closed.")
+    FOREIGN KEY (order_id) REFERENCES Orders(order_id),
+    FOREIGN KEY (book_id) REFERENCES Books(book_id)
+);
