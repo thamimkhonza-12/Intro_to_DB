@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a91e80d2-565e-4450-9e85-02fcfe325060" name="Changes" comment="bookstore.sql">
-      <change afterPath="$PROJECT_DIR$/MySQLServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a91e80d2-565e-4450-9e85-02fcfe325060" name="Changes" comment="SQLServer.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,29 +13,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SQL File" />
         <option value="Python Script" />
+        <option value="SQL File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "thamimkhonza-12"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thamimkhonza-12&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/thamimkhonza-12/Intro_to_DB.git",
-    "accountId": "103325ca-b24a-46bd-94f2-bbd45622a99d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thamimkhonza-12/Intro_to_DB.git&quot;,
+    &quot;accountId&quot;: &quot;103325ca-b24a-46bd-94f2-bbd45622a99d&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="36kvuhe7fhe9fKPYsYT5KR5WTzg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +46,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.MySQLServer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,11 +58,17 @@
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.MySQLServer">
-    <configuration name="alx_book_store.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="task_2.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="task_3.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <method v="2" />
     </configuration>
     <configuration name="MySQLServer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -106,7 +110,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765563612948</updated>
-      <workItem from="1765563618103" duration="1347000" />
+      <workItem from="1765563618103" duration="1561000" />
+      <workItem from="1765565707831" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="bookstore.sql">
       <option name="closed" value="true" />
@@ -124,14 +129,34 @@
       <option name="project" value="LOCAL" />
       <updated>1765564661505</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SQLServer.py">
+      <option name="closed" value="true" />
+      <created>1765565214335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765565214336</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bookstore.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="bookstore.sql" />
+    <MESSAGE value="SQLServer.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQLServer.py" />
   </component>
 </project>
