@@ -43,45 +43,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Database Script.task_5.sql.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.task_6.sql.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.MySQLServer.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Database Script.task_3.sql.executor": "Run",
+    "Database Script.task_4.sql.executor": "Run",
+    "Database Script.task_5.sql.executor": "Run",
+    "Database Script.task_6.sql.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.MySQLServer.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;aeeffa02-854f-42cb-b332-a2786a05d527&quot;
+    "RunConfigurationTargetLRU": [
+      "aeeffa02-854f-42cb-b332-a2786a05d527"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;MySQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="task_2.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <method v="2" />
     </configuration>
     <configuration name="task_3.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/task_3.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="aeeffa02-854f-42cb-b332-a2786a05d527" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_4.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/task_4.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="aeeffa02-854f-42cb-b332-a2786a05d527" />
       <method v="2" />
     </configuration>
     <configuration name="task_5.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
@@ -138,7 +149,7 @@
       <workItem from="1765563618103" duration="1561000" />
       <workItem from="1765565707831" duration="1873000" />
       <workItem from="1765644481467" duration="731000" />
-      <workItem from="1765645622796" duration="232000" />
+      <workItem from="1765645622796" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="bookstore.sql">
       <option name="closed" value="true" />
