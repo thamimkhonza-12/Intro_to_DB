@@ -4,12 +4,11 @@ try:
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="",
-        database="alx_book_store"
+        password="201305Thami,,,"
     )
 
     cursor = connection.cursor()
-    cursor.execute("SHOW TABLES;")
+    cursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
 
 except mysql.connector.Error as err:
     print(f"Error: {err}")
