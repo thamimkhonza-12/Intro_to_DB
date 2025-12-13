@@ -123,7 +123,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MySQLServer.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -149,7 +149,7 @@
       <workItem from="1765563618103" duration="1561000" />
       <workItem from="1765565707831" duration="1873000" />
       <workItem from="1765644481467" duration="731000" />
-      <workItem from="1765645622796" duration="713000" />
+      <workItem from="1765645622796" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="bookstore.sql">
       <option name="closed" value="true" />
