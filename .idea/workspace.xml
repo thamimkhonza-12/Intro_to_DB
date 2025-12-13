@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a91e80d2-565e-4450-9e85-02fcfe325060" name="Changes" comment="SQLServer.py" />
+    <list default="true" id="a91e80d2-565e-4450-9e85-02fcfe325060" name="Changes" comment="more tasks.sql">
+      <change afterPath="$PROJECT_DIR$/task_5.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_6.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +49,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Database Script.task_5.sql.executor": "Run",
+    "Database Script.task_6.sql.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.MySQLServer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -56,8 +65,15 @@
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
+    ],
     "DatabaseDriversLRU": [
       "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "aeeffa02-854f-42cb-b332-a2786a05d527"
     ],
     "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
       "MySQL"
@@ -69,6 +85,18 @@
       <method v="2" />
     </configuration>
     <configuration name="task_3.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="task_5.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/task_5.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="aeeffa02-854f-42cb-b332-a2786a05d527" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_6.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/task_6.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="aeeffa02-854f-42cb-b332-a2786a05d527" />
       <method v="2" />
     </configuration>
     <configuration name="MySQLServer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -111,7 +139,8 @@
       <option name="presentableId" value="Default" />
       <updated>1765563612948</updated>
       <workItem from="1765563618103" duration="1561000" />
-      <workItem from="1765565707831" duration="1055000" />
+      <workItem from="1765565707831" duration="1873000" />
+      <workItem from="1765644481467" duration="406000" />
     </task>
     <task id="LOCAL-00001" summary="bookstore.sql">
       <option name="closed" value="true" />
